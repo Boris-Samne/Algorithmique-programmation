@@ -1,5 +1,5 @@
 #exercice17
-#afficher un dictionnaire
+#Parcourir un dictionnaire
 Livres={"Sous l'orage":"Seydou badian", 
         "Le Parachutage":"Norbert Zongo", 
         "De purs hommes":"Mohamed Mbougar Sarr"}
