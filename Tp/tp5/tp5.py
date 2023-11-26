@@ -36,7 +36,7 @@ print(oldests(Liste_dictionnaire, 23),"\n")
 nombres=(2, 3, 4)
 
 def liste_carre_Tuples(nombres:tuple)->list:
-    print(f"exercice4-Liste des carrées du tuple {nombres}")
+    print(f"4-exercice4-Liste des carrées du tuple {nombres}")
     Liste=[nombre**2 for nombre in nombres]
     return Liste
 
@@ -52,7 +52,7 @@ classe={
         }
 
 def uniqueFavoriteCorse(classe:dict)->set:
-    print("exercice5 dictionnaires et liste")
+    print("5-exercice5 dictionnaires et liste")
     uniqueFavoriteCorses=set()
     for liste in classe.values():
         for element in liste:
@@ -87,7 +87,7 @@ tuple4=("DADBOR",44)
 liste_tuple=[tuple1,tuple2,tuple3,tuple4]
 
 def Younger(Liste:list, age:int)->list:
-    print("exercice7-liste de tuple")
+    print("7-exercice7-liste de tuple")
     Youngers=[young[0] for young in Liste if young[1]<=age]
     return Youngers
 
@@ -103,4 +103,4 @@ def prixTotal(paniers: dict)->float:
     print("8-exercice8 dictionnaire et liste")
     return sum(paniers.values())
 
-print("le prix total est", prixTotal(panier),"Dh")
+print("le prix total est", prixTotal(panier),"Dh","\n")
