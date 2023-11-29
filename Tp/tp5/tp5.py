@@ -14,7 +14,7 @@ legumes={"tomates", "aubergines", "oigons"}
 
 def Intersection_ensembles( ensemble1:set, ensemle2:set)->set:
     print(f"2-exercice2 : intersection des ensembles {ensemble1} et {ensemle2}")
-    return ensemble1.intersection(ensemle2)
+    return ensemble1&ensemle2
 
 print(Intersection_ensembles(fruits,legumes),"\n")
 
@@ -104,3 +104,4 @@ def prixTotal(paniers: dict)->float:
     return sum(paniers.values())
 
 print("le prix total est", prixTotal(panier),"Dh","\n")
+
